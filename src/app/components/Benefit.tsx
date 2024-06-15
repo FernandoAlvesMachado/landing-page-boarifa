@@ -9,14 +9,14 @@ export default function Benefit() {
 
     return (
         <div>
-            <div className="w-full py-4 bg-white flex justify-center h-[400px] items-center">
+            <div className="w-full py-4 bg-white flex justify-center  md:h-[400px] items-center">
                 <div className="w-screen flex max-w-5xl justify-between">
                     {/* PRIMEIRO LADO */}
-                    <div className="z-10 flex flex-col mt-5 w-full gap-4 items-center justify-center">
+                    <div className="z-10 flex flex-col mt-5 w-full gap-10 items-center justify-center">
                         <h1 className="text-3xl font-bold text-green-600">O que oferecemos?</h1>
                         <div className="w-full text-xl flex flex-col gap-7">
 
-                            <div className="flex gap-5 justify-between w-full">
+                            <div className="flex md:flex-row flex-col gap-5 justify-between w-full items-center">
                                 <div className="flex items-center justify-center gap-2">
                                     <Image
                                         src={seguranca}
@@ -24,9 +24,9 @@ export default function Benefit() {
                                         quality={100}
                                         alt="icon-segurança"
                                     />
-                                    <h2>Taxa de 2.5% no pix</h2>
+                                    <h2 className="w-60">Taxa de 2.5% no pix</h2>
                                 </div>
-                                <div className="flex items-center justify-center gap-2">
+                                <div className="flex  items-center justify-center gap-2">
                                     <Image
                                         src={grafico}
                                         width={50}
@@ -45,7 +45,7 @@ export default function Benefit() {
                                     <h2 className="max-w-64 items-center justify-center flex">páginas de vendas de altíssima performance  </h2>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-evenly w-full">
+                            <div className="flex md:flex-row flex-col gap-5 items-center justify-evenly w-full">
                                 <div className="flex items-center justify-center gap-2">
                                     <Image
                                         src={preview}

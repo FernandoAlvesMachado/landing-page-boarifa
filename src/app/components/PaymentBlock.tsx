@@ -6,9 +6,9 @@ export default function PaymentBlock() {
     return (
         <div>
             <div className="w-full py-4 flex justify-center items-center">
-                <div className="w-screen flex max-w-5xl justify-between h-[600px]">
+                <div className="w-screen md:flex px-6 md:px-0 max-w-5xl justify-between h-[600px]">
                     {/* PRIMEIRO LADO */}
-                    <div className="z-10 flex flex-col w-full max-w-xl gap-4 items-center justify-center">
+                    <div className="z-10 flex text-center md:text-start flex-col w-full max-w-xl gap-4 items-center justify-center">
                         <h1 className="text-4xl font-bold text-green-600">Diga adeus aos bloqueios de
                             pagamento e alavanque
                             suas rifas!</h1>
@@ -17,7 +17,8 @@ export default function PaymentBlock() {
                     </div>
 
                     {/* SEGUNDO LADO */}
-                    <div className="flex mt-28 w-full gap-4 items-center justify-center h-full">
+                    <div className="flex md:mt-28 w-full gap-4 items-center justify-center h-full">
+                        <div className="md:flex hidden">
                         <Image
                             src={ImagemBlock}
                             alt="Mockup Celular"
@@ -25,6 +26,18 @@ export default function PaymentBlock() {
                             width={750}
                             quality={100}
                         />
+
+                        </div>
+                        <div className="md:hidden">
+                        <Image
+                            src={ImagemBlock}
+                            alt="Mockup Celular"
+                            priority
+                            width={450}
+                            quality={100}
+                        />
+
+                        </div>
                     </div>
                 </div>
             </div>

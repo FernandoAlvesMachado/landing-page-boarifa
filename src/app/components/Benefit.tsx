@@ -9,7 +9,7 @@ export default function Benefit() {
 
     return (
         <div>
-            <div className="w-full py-4 bg-white flex justify-center  md:h-[400px] items-center">
+            <div id="oque-e" className="w-full py-4 bg-white flex justify-center  md:h-[400px] items-center">
                 <div className="w-screen flex max-w-5xl justify-between">
                     {/* PRIMEIRO LADO */}
                     <div className="z-10 flex flex-col mt-5 w-full gap-10 items-center justify-center">

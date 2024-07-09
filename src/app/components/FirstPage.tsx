@@ -12,8 +12,8 @@ export default function FirstPage() {
                         <h1 className="text-4xl font-bold text-center md:text-start">Crie sua <span className="text-green-600"> campanha online</span> em <span className="text-green-600"> menos</span> de 1 minuto</h1>
                         <p className="font-extralight text-center md:text-start">Agora você pode ter tudo na palma da mão, controle com velocidade, agilidade e com a melhor taxa do mercado, sem bloqueio de pagamento!</p>
                         <div className="flex justify-between w-full md:flex-row flex-col gap-3">
-                            <button className="bg-green-500 px-2 py-1 text-white rounded-lg hover:scale-110 hover:shadow-lg transition-all">Criar conta agora mesmo!</button>
-                            <button className="bg-white px-2 py-1 text-green-900 border border-green-900 rounded-lg hover:scale-110 hover:shadow-lg transition-all">Mais informações</button>
+                            <a href="https://develop.app.boarifa.com/login" className="bg-green-500 px-2 py-1 text-white rounded-lg hover:scale-110 hover:shadow-lg transition-all">Criar conta agora mesmo!</a>
+                            <a href="https://develop.app.boarifa.com/login" className="bg-white px-2 py-1 text-green-900 border border-green-900 rounded-lg hover:scale-110 hover:shadow-lg transition-all">Mais informações</a>
                         </div>
                     </div>
 

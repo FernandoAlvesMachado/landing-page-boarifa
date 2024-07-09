@@ -7,7 +7,7 @@ export default function Simple() {
 
     return (
         <div>
-            <div className="w-full py-4 bg-white flex justify-center md:h-[500px] items-center">
+            <div id="como-funciona" className="w-full py-4 bg-white flex justify-center md:h-[500px] items-center">
                 <div className="w-screen flex max-w-5xl justify-between">
                     {/* PRIMEIRO LADO */}
                     <div className="z-10 flex flex-col mt-5 w-full gap-4 items-center justify-center">

@@ -5,7 +5,7 @@ export default function PlateSecction() {
 
     return (
         <div>
-            <div className="w-full py-4 bg-white flex justify-center items-center">
+            <div id="recompensa" className="w-full py-4 bg-white flex justify-center items-center">
                 <div className="w-screen md:flex max-w-5xl justify-between">
                     {/* PRIMEIRO LADO */}
                     <div className="z-10 text-center md:text-start px-6 py-9 md:px-0 md:py-0 flex flex-col md:h-[600px] w-full max-w-xl gap-4 items-center justify-center">

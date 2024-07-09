@@ -5,7 +5,7 @@ export default function PaymentBlock() {
 
     return (
         <div>
-            <div className="w-full py-4 flex justify-center items-center">
+            <div id="pagamento-bloqueado" className="w-full py-4 flex justify-center items-center">
                 <div className="w-screen md:flex px-6 md:px-0 max-w-5xl justify-between h-[600px]">
                     {/* PRIMEIRO LADO */}
                     <div className="z-10 flex text-center md:text-start flex-col w-full max-w-xl gap-4 items-center justify-center">
